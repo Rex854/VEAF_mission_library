@@ -175,13 +175,77 @@ veafUnits.GroupsDatabase = {
         },
     },
     {
-        aliases = {"sa13", "sa-13"},
+        aliases = {"sa13", "sa-13", "s13"},
         group = {
             units = {"Strela-10M3"},
             description = "SA13 SAM site",
             groupName = "SA13"
-        }
+        },
     },
+    {
+        aliases = {"zsu-23-4", "shilka"},
+        group = {
+            units = {"Dog Ear radar", "ZSU-23-4 Shilka", "ZSU-23-4 Shilka", "ZSU-23-4 Shilka"},
+            description = "ZSU-23-4 AAA site",
+            groupName = "Shilka"
+        },
+    },
+    {
+        aliases = {"sa3", "sa-3", "s-125", "s125", "lb"},
+        group = {
+            units = {"p-19 s-125 sr", "snr s-125 tr", "5p73 s-125 ln", "5p73 s-125 ln", "5p73 s-125 ln", "5p73 s-125 ln"}, --http://www.ausairpower.net/APA-Rus-SAM-Site-Configs-A.html#mozTocId627883
+            description = "SA3 SAM site",
+            groupName = "SA3"
+        },
+    },
+    {
+        aliases = {"sa6", "sa-6","s6"},
+        group = {
+            units = {"Kub 1S91 str", "Kub 2P25 ln", "Kub 2P25 ln", "Kub 2P25 ln", "Kub 2P25 ln"}, 
+            description = "SA6 SAM site",
+            groupName = "SA6"
+        },
+    },
+    {
+        aliases = {"sa11", "sa-11", "sd"},
+        group = {
+            units = {"SA-11 Buk CC 9S470M1", "SA-11 Buk SR 9S18M1", "SA-11 Buk LN 9A310M1", "SA-11 Buk LN 9A310M1", "SA-11 Buk LN 9A310M1", "SA-11 Buk LN 9A310M1"},
+            description = "SA11 SAM site",
+            groupName = "SA11"
+        },
+    },
+    {
+        aliases = {"s-300ps", "s-300", "s300", "bb"},
+        group = {
+            units = {"S-300PS 54K6 cp", "S-300PS 64H6E sr", "S-300PS 40B6MD sr", "S-300PS 40B6M tr", "S-300PS 5P85C ln", "S-300PS 5P85C ln", "S-300PS 5P85C ln", "S-300PS 5P85D ln", "S-300PS 5P85D ln", "S-300PS 5P85D ln"},
+            description = "S300 SAM site",
+            groupName = "S300"
+        },
+    },
+    {
+        aliases = {"roland", "ro"},
+        group = {
+            units = {"Roland Radar", "Roland ADS", "Roland ADS"},
+            description = "Roland SAM site",
+            groupName = "Roland"
+        },
+    }, 
+    {
+        aliases = {"hawk", "ha"},
+        group = {
+            units = {"Hawk pcp", "Hawk sr", "Hawk tr", "Hawk ln", "Hawk ln", "Hawk ln", "Hawk ln"},
+            description = "Hawk SAM site",
+            groupName = "Hawk"
+        },
+    },
+    {
+        aliases = {"patriot", "pa"},
+        group = {
+            units = {"Patriot cp", "Patriot EPP", "Patriot ECS", "Patriot AMG", "Patriot ln"},
+            description = "Patriot SAM site",
+            groupName = "Patriot"
+        },
+    }, 
     {
         aliases = {"Tarawa"},
         group = {
